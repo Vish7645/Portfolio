@@ -1,0 +1,118 @@
+/* Reset some default styling */
+/* body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+.project {
+    margin-bottom: 40px;
+}
+
+.project img {
+    max-width: 1200px;
+    height: 600px;
+} */
+
+/* Add more custom styles as needed */
+
+/* Reset some default styling */
+body, h1, h2, p, img, a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+.project {
+    margin-bottom: 40px;
+}
+
+.project img {
+    max-width: 2000px;
+    height: 600px;
+}
+
+section#about img {
+    max-width: 200px;
+    border-radius: 50%;
+    margin: 20px auto;
+    display: block;
+}
+
+a {
+    color: #007bff;
+}
+
+/* Media Queries for Responsive Design */
+@media screen and (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+/* Add more custom styles as needed */
+
